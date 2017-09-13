@@ -41,7 +41,7 @@ namespace Aliyun.MNS.Util
                 if (data == null || data.Length == 0)
                     throw new ArgumentNullException("data", "Please specify data to sign.");
 
-                KeyedHashAlgorithm algorithm = KeyedHashAlgorithm.Create(algorithmName.ToString().ToUpper(CultureInfo.InvariantCulture));
+                HMACSHA1 algorithm = new HMACSHA1();
                 if (null == algorithm)
                     throw new InvalidOperationException("Please specify a KeyedHashAlgorithm to use.");
 
@@ -77,7 +77,7 @@ namespace Aliyun.MNS.Util
                 if (data == null || data.Length == 0)
                     throw new ArgumentNullException("data", "Please specify data to sign.");
 
-                KeyedHashAlgorithm algorithm = KeyedHashAlgorithm.Create(algorithmName.ToString().ToUpper(CultureInfo.InvariantCulture));
+                HMACSHA1 algorithm = new HMACSHA1();
                 if (null == algorithm)
                     throw new InvalidOperationException("Please specify a KeyedHashAlgorithm to use.");
 
