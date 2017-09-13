@@ -63,8 +63,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AliyunSDK.MNS\Aliyun.MNS.csproj">
-      <Project>{1eb53ff3-c868-47fe-9fa8-e2a0815a0a84}</Project>
+    <ProjectReference Include="..\Aliyun.MNS\Aliyun.MNS.csproj">
+      <Project>{3d54fd5a-9264-46fe-a88a-08a4585fa81d}</Project>
       <Name>Aliyun.MNS</Name>
     </ProjectReference>
   </ItemGroup>
